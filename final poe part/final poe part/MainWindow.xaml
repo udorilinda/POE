@@ -1,0 +1,77 @@
+﻿<Window x:Class="final_poe_part.MainWindow"
+      
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Recipe App" Height="1000" Width="2000">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content = "Enter Recipe" Click="EnterRecipe_Click" />
+
+
+            <Button Content="Reset quantities" Click="ResetQuantities_Click"/>
+            <Button Content="Clear all data" Click="ClearData_Click"/>
+            <Button Content="Exit" Click="Exit_Click"/>
+        </StackPanel>
+        <StackPanel  Grid.Row="3" Margin="20" >
+            <TextBlock Text="Enter Recipe Details" FontSize="20" FontWeight="Bold" Margin="0 0 0 20" />
+
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                <TextBlock Text="Number of Ingredients: " />
+                <TextBox x:Name="txtIngredients" Width="100" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                <TextBlock Text="Recipe Name: " />
+                <TextBox x:Name="txtRecipeName" Width="200" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                <TextBlock Text="group Number: " />
+                <TextBox x:Name="txtgroupNumber" Width="200" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                <TextBlock Text="Number of Scales: " />
+                <TextBox x:Name="txtScales" Width="100" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                <TextBlock Text="Steps: " />
+                <TextBox x:Name="txtSteps" Width="200" Height="100" TextWrapping="Wrap" />
+            </StackPanel>
+
+            <Button Content="display all  recipe" Click="DisplayRecipes_Click" Width="100" Margin="0 20 1200 0" />
+
+
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Margin="20,350,100,100">
+            <Label Content="Filter Recipes:" FontWeight="Bold" FontSize="16"/>
+            <StackPanel Orientation="Horizontal" Margin="0 10">
+                <Label Content="Ingredient:" VerticalAlignment="Center"/>
+                <TextBox x:Name="ingredientTextBox" Width="200" VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 10">
+                <Label Content="Food Group:" VerticalAlignment="Center"/>
+                <ComboBox x:Name="foodGroupComboBox" Width="200" VerticalAlignment="Center">
+                    <ComboBoxItem Content="Select a food group"/>
+                    <ComboBoxItem Content="Food Group 1"/>
+                    <ComboBoxItem Content="Food Group 2"/>
+                    <!-- Add more food groups here -->
+                </ComboBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 10">
+                <Label Content="Max Calories:" VerticalAlignment="Center"/>
+                <TextBox x:Name="maxCaloriesTextBox" Width="100" VerticalAlignment="Center"/>
+            </StackPanel>
+            <Button Content="Apply Filter" Margin="0 10" Click="ApplyFilter_Click"/>
+
+            <Label x:Name="resultLabel" Margin="0 20" FontWeight="Bold" FontSize="16"/>
+        </StackPanel>
+    </Grid>
+</Window>

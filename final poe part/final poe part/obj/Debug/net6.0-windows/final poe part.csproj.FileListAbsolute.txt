@@ -1,0 +1,20 @@
+C:\Users\mukon\source\repos\final poe part\final poe part\bin\Debug\net6.0-windows\final poe part.exe
+C:\Users\mukon\source\repos\final poe part\final poe part\bin\Debug\net6.0-windows\final poe part.deps.json
+C:\Users\mukon\source\repos\final poe part\final poe part\bin\Debug\net6.0-windows\final poe part.runtimeconfig.json
+C:\Users\mukon\source\repos\final poe part\final poe part\bin\Debug\net6.0-windows\final poe part.dll
+C:\Users\mukon\source\repos\final poe part\final poe part\bin\Debug\net6.0-windows\final poe part.pdb
+C:\Users\mukon\source\repos\final poe part\final poe part\obj\Debug\net6.0-windows\final poe part.csproj.AssemblyReference.cache
+C:\Users\mukon\source\repos\final poe part\final poe part\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\mukon\source\repos\final poe part\final poe part\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\mukon\source\repos\final poe part\final poe part\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\mukon\source\repos\final poe part\final poe part\obj\Debug\net6.0-windows\final poe part_MarkupCompile.cache
+C:\Users\mukon\source\repos\final poe part\final poe part\obj\Debug\net6.0-windows\final poe part.g.resources
+C:\Users\mukon\source\repos\final poe part\final poe part\obj\Debug\net6.0-windows\final poe part.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mukon\source\repos\final poe part\final poe part\obj\Debug\net6.0-windows\final poe part.AssemblyInfoInputs.cache
+C:\Users\mukon\source\repos\final poe part\final poe part\obj\Debug\net6.0-windows\final poe part.AssemblyInfo.cs
+C:\Users\mukon\source\repos\final poe part\final poe part\obj\Debug\net6.0-windows\final poe part.csproj.CoreCompileInputs.cache
+C:\Users\mukon\source\repos\final poe part\final poe part\obj\Debug\net6.0-windows\final poe part.dll
+C:\Users\mukon\source\repos\final poe part\final poe part\obj\Debug\net6.0-windows\refint\final poe part.dll
+C:\Users\mukon\source\repos\final poe part\final poe part\obj\Debug\net6.0-windows\final poe part.pdb
+C:\Users\mukon\source\repos\final poe part\final poe part\obj\Debug\net6.0-windows\final poe part.genruntimeconfig.cache
+C:\Users\mukon\source\repos\final poe part\final poe part\obj\Debug\net6.0-windows\ref\final poe part.dll
